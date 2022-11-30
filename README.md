@@ -44,16 +44,14 @@ The features of this program are:
 This program was developed by using python official IDLE as name ‘Python IDLE’. In the overall program, We create a four-different module ‘read’, ‘write’, ‘purchase’ are connected to ‘main module’. All module has own work and finally main module call value and instruction from remaining three modules. In the processing of the program I used text file for read data and work on it. After the coding part of the program we also construct the flowchart for easier to understand how the program works. Flowchart is the graphical representation of the program, We construct the flowchart using the online tool which link is '[draw.io](www.draw.io "Draw.io Homepage")'
 
 # Stepwise algorithm
-- Step 1:	 Start 
-- Step 2:	 products.txt file from given folder.
-- Step 3: 	txt file is displayed in the screen with products available.
-- Step 4:	Inputs customers name.
+- Step 1:	  Start 
+- Step 2:	  products.txt file from given folder.
+- Step 3:   txt file is displayed in the screen with products available.
+- Step 4:	  Inputs customers name.
 - Step 5: 	Inputs products name.
 - Step 6: 	If product name is correct then go to next step or else remain in same step until valid name is provided.
 - Step 7: 	Input quantity of the product.
 - Step 8: 	If the input number of quantity is available then go to next step or else display Sorry!! a_name !, product is out of stock.
-We will add stock of product later. 
-Lets hope, you will get this product after next shopping
 - Step 9: 	Ask customer do you want buy more products?(Y/N) If they select Y, go back to step 6, If they select no, then it won’t go to any steps.
 - Step 10: 	Price of the product with total amount is displayed.
 - Step 11:	Receipt is printed with customer name, date and time purchase. Products details, Grand total and at last Thank You customer for buying Let's Dough It! Pizza. See you again!
