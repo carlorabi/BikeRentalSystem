@@ -1,4 +1,4 @@
-# Billing System in Python (Pizza Store)
+# Ordering System in Python (Pizza Store)
 
 # (Documentation)
 It is tied in with composing a program in python of an pizza store that offers pizza w/ diff. flavors.
