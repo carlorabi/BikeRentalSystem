@@ -1,8 +1,7 @@
 # Bike Rental System
 
 # Purpose
-The primary motivation behind composing this coursework is to build up a program in python, utilizing loop concept  for the given scenario of an Bicycle Ride Rental System. It ought to likewise module algorithm, pseudocode, flowchart and data structure of the program.
-
+The primary motivation behind composing this coursework is to build up a program in python, utilizing loop concept  for the given scenario of an Bicycle Ride Rental System.
 # Problem statement
 The issue offered was to build up an application which read the text document and show the data accessible. After that the program should to create a receipt for a customer or consumer, with each purchase of the given item. Likewise, after each purchase of some products the stock should be refreshed in same text file.
 
