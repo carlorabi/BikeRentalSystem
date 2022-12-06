@@ -136,3 +136,30 @@ class BikeRentalTest(unittest.TestCase):
         self.assertEqual(shop.returnBike(request4), 2080)
         self.assertEqual(shop.returnBike(request5), 5400)
         self.assertEqual(shop.returnBike(request6), 21600)
+        
+class CustomerTest(unittest.TestCase):
+    
+    def test_return_Bike_with_valid_input(self):
+        # create a customer
+        customer = Customer()
+        
+        # create valid rentalTime, rentalBasis, bikes
+        now = datetime.now()
+        customer.rentalTime = now
+        customer.rentalBasis = 1
+        customer.bikes = 4
+        self.assertEqual(customer.returnBike(),(now,1, 4))
+    def test_return_Bike_with_invalid_input(self):
+        # create a customer
+        customer = Customer()
+        
+        # create valid rentalBasis and bikes
+               
+        customer.rentalBasis = 1
+        customer.bikes = 0
+        # create invalid rentalTime
+        customer.rentalTime =  0
+        self.assertEqual(customer.returnBike(),(0,0,0))]
+        
+if __name__ == '__main__':
+    unittest.main()
