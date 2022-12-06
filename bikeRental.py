@@ -13,7 +13,7 @@ class BikeRental:
         print("\n\t[We have currently {} bikes available to rent.]".format(self.stock))
         return self.stock
         
-         def rentBikeOnHourlyBasis(self, n):
+    def rentBikeOnHourlyBasis(self, n):
         #Rents a bike on hourly basis to a customer.
      
         if n <= 0:
@@ -33,7 +33,7 @@ class BikeRental:
             self.stock -= n
             return now 
 
-       def rentBikeOnDailyBasis(self, n):
+    def rentBikeOnDailyBasis(self, n):
         """
         Rents a bike on daily basis to a customer.
         """
@@ -54,7 +54,7 @@ class BikeRental:
             self.stock -= n
             return now        
 
-         def rentBikeOnWeeklyBasis(self, n):
+     def rentBikeOnWeeklyBasis(self, n):
         #Rents a bike on weekly basis to a customer.
     
         if n <= 0:
@@ -71,7 +71,7 @@ class BikeRental:
             self.stock -= n
             return now
        
-       def returnBike(self, request):
+     def returnBike(self, request):
         """
         1. Accept a rented bike from a customer
         2. Inventory updated
