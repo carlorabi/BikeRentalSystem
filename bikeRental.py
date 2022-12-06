@@ -33,7 +33,7 @@ class BikeRental:
             self.stock -= n
             return now 
 
-        def rentBikeOnDailyBasis(self, n):
+       def rentBikeOnDailyBasis(self, n):
         """
         Rents a bike on daily basis to a customer.
         """
@@ -54,7 +54,7 @@ class BikeRental:
             self.stock -= n
             return now        
 
-          def rentBikeOnWeeklyBasis(self, n):
+         def rentBikeOnWeeklyBasis(self, n):
         #Rents a bike on weekly basis to a customer.
     
         if n <= 0:
@@ -70,3 +70,43 @@ class BikeRental:
             print("\n\tYou will be charged ₱200.00 for each week per bike. We hope that you enjoy our service!")
             self.stock -= n
             return now
+       
+       def returnBike(self, request):
+        """
+        1. Accept a rented bike from a customer
+        2. Inventory updated
+        3. Return a bill
+        """
+       
+        # extract the tuple and initiate bill
+        rentalTime, rentalBasis, numOfBikes = request
+        bill = 0
+
+        # issue a bill only if all three parameters are not null!
+        if rentalTime and rentalBasis and numOfBikes:
+            self.stock += numOfBikes
+            now = datetime.datetime.now()
+            rentalPeriod = now - rentalTime
+        
+            # hourly bill calculation
+            if rentalBasis == 1:
+                bill = round(rentalPeriod.seconds / 3600) * 50 * numOfBikes
+                
+            # daily bill calculation
+            elif rentalBasis == 2:
+                bill = round(rentalPeriod.days) * 120 * numOfBikes
+                
+            # weekly bill calculation
+            elif rentalBasis == 3:
+                bill = round(rentalPeriod.days / 7) * 200 * numOfBikes
+            
+            print("\n\tThat would be ₱{}.00".format(bill))
+            print("\n\t[Thank you!]")
+            return bill
+        
+        else:
+            print("---------------------------------------------------------")
+            print("\n\tYou are not renting any bikes from Bike2Go!")
+            print("\n---------------------------------------------------------") 
+            return None
+          
