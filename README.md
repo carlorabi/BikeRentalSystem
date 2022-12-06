@@ -19,8 +19,8 @@ This undertaking outlines the thoughts and techniques for composing programs in 
 
 
 # Stepwise algorithm
-- Step 1:	  Start 
-- Step 2:	  products.txt file from given folder.
+- Step 1:	  Start
+- Step 2:	  displaying main menu.
 - Step 3:   txt file is displayed in the screen with products available.
 - Step 4:	  Inputs customers name.
 - Step 5: 	Inputs products name.
