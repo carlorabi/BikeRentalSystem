@@ -1,31 +1,56 @@
+import os
 from bikeRental import BikeRental, Customer
 
 def main():
-    shop = BikeRental(100)
-    customer = Customer()
 
+    shop = BikeRental(20)
+    customer = Customer()
+    os.system('cls')
     while True:
+        
+        print('\n========================================================================')
+        logo_banner = (
+        '''
+ ______      _    __                 _____      ______             _  
+|_   _ \    (_)  [  |  _            / ___ `.  .' ___  |           | | 
+  | |_) |   __    | | / ]   .---.  |_/___) | / .'   \_|    .--.   | | 
+  |  __'.  [  |   | '' <   / /__\\  .'____.' | |   ____   / .'`\ \ | | 
+ _| |__) |  | |   | |`\ \  | \__., / /_____  \ `.___]  | | \__. | |_| 
+|_______/  [___] [__|  \_]  '.__.' |_______|  `._____.'   '.__.'  (_)                                              
+        ''')
+        print(logo_banner)
         print("""
-        ====== Bike Rental Shop =======
-        1. Display available bikes
-        2. Request a bike on hourly basis $5
-        3. Request a bike on daily basis $20
-        4. Request a bike on weekly basis $60
-        5. Return a bike
-        6. Exit
+        ============== Bike2Go! [Bike Rental Shop] =============
+
+        [1] Display available bikes.
+        \n\t[2] Rent a bike for 1 hour. = ₱50.00
+        \n\t[3] Rent a bike for 1 day.  = ₱120.00
+        \n\t[4] Rent a bike for 1 week. = ₱200.00
+        \n\t[5] Return a bike.
+        \n\t[6] Exit.
         """)
         
-        choice = input("Enter choice: ")
+        choice = input("\tPlease enter your choice [1-6]: ")
         
         try:
             choice = int(choice)
         except ValueError:
-            print("That's not an int!")
+            print("---------------------------------------------------------")
+            print("\n\t[Error! Please input integer.]")
+            print("\n---------------------------------------------------------")
             continue
         
         if choice == 1:
             shop.displaystock()
-        
+            print("\n---------------------------------------------------------")
+            question = input("\n\tDo you want to continue? [yes/no]: ")
+            if question=="yes":
+                return main()
+            elif question == "no":
+                print("\n\t\t[Bye!]")
+                print("----------------------------------------------------------")
+                break
+
         elif choice == 2:
             customer.rentalTime = shop.rentBikeOnHourlyBasis(customer.requestBike())
             customer.rentalBasis = 1
@@ -42,11 +67,13 @@ def main():
             customer.bill = shop.returnBike(customer.returnBike())
             customer.rentalBasis, customer.rentalTime, customer.bikes = 0,0,0        
         elif choice == 6:
+            print("\n\t\t[Thank you for renting a bike through Bike2Go!]")
+            print("------------------------------------------------------------------------------")
             break
         else:
-            print("Invalid input. Please enter number between 1-6 ")        
-    print("Thank you for using the bike rental system.")
-
+            print("---------------------------------------------------------")
+            print("\n\t[Invalid input! Please enter number between 1-6.]")  
+            print("\n---------------------------------------------------------")      
 
 if __name__=="__main__":
     main()
