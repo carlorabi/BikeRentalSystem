@@ -21,7 +21,7 @@ To solve all the given work in this coursework, certain methodologies will be ma
 7. Finally, testing will be improved the situation the composed program so error and bugs will be settled and it can convey the right wanted outcome.
 
 # Target audience
-This task will be useful for understudies, programmer, software engineers, analysts and particularly for those students who look for premium and need to learn python programming dialect. As well as it is useful for those commercials propose which is required billing system store for individual customer.
+This task will be helpful for beginners, programmers, software engineers, analysts, and especially for students looking for premium education and who need to master the Python programming language. Additionally, it is helpful for those ads that suggest a billing system store that is necessary for each customer.
 
 # Hardware and software requirements
 Adjacent to PC, no an equipment is required however in programming we utilize python IDLE which ought to be installed in computer.
