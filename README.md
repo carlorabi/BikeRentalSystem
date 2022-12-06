@@ -8,7 +8,7 @@
 To thoroughly check the classes and methods for faults, a test module is developed alongside the main software. The majority of mistakes are caused by non-integer inputs, negative values, and null values. The majority of them have been looked after.
 
 # Aim and objectives
-The fundamental focus of this coursework is to take in the idea of programming in python and can compose a program for the given command. Besides, another target of this coursework is learning the concept of  knowing data structure in python. To achieve this aim will be create to finish all the work in the given time frame. Additionally, more research and study relating with this errand will be made.
+The primary goal of this course is to help students understand the fundamentals of Python programming and develop their ability to create programs in response to commands. A further goal of this curriculum is to teach students about Python data structures. To accomplish this goal, a deadline will be set for completing all work. Additionally, there will be additional research and study done in relation to this task.
 
 # Purposed approach
 To solve all the given work in this coursework, certain methodologies will be made which are follows.
