@@ -5,7 +5,7 @@
 3. For simplicity we assume that any customer requests rentals of only one type i.e hourly, monthly or weekly but is free to chose the number of bikes he/she wants. However requested bikes should be less than available stock.
 
 # Unit-Test
-Test module is written alongside the main program to rigorously test the classes and methods for errors. Most errors occur in Null values, negative values and non-integer inputs. Most of them have been taken care of.
+To thoroughly check the classes and methods for faults, a test module is developed alongside the main software. The majority of mistakes are caused by non-integer inputs, negative values, and null values. The majority of them have been looked after.
 
 # Aim and objectives
 The fundamental focus of this coursework is to take in the idea of programming in python and can compose a program for the given command. Besides, another target of this coursework is learning the concept of  knowing data structure in python. To achieve this aim will be create to finish all the work in the given time frame. Additionally, more research and study relating with this errand will be made.
