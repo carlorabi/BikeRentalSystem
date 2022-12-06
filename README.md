@@ -1,9 +1,7 @@
 # Bike Rental System
 
-# Purpose
-The primary motivation behind composing this coursework is to build up a program in python, utilizing loop concept  for the given scenario of an Bicycle Ride Rental System.
-# Problem statement
-The issue offered was to build up an application which read the text document and show the data accessible. After that the program should to create a receipt for a customer or consumer, with each purchase of the given item. Likewise, after each purchase of some products the stock should be refreshed in same text file.
+1. A full fledged bike rental system implemented in Python using object oriented programming.
+
 
 # Aim and objectives
 The fundamental focus of this coursework is to take in the idea of programming in python and can compose a program for the given command. Besides, another target of this coursework is learning the concept of  knowing data structure in python. To achieve this aim will be create to finish all the work in the given time frame. Additionally, more research and study relating with this errand will be made.
