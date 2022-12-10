@@ -35,3 +35,11 @@ This undertaking outlines the thoughts and techniques for composing programs in 
 
 
 # Video Presentation
+
+
+
+# Group Members (IT 2103)
+Rabi, John Carlo
+Cachero, Angelica Marie
+Castillo, Cyrus Alexis
+Macuha, Bien Joshua
