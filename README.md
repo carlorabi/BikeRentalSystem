@@ -50,7 +50,7 @@ Link:
 
 
 # Group Members (IT 2103)
-* Rabi, John Carlo
-* Cachero, Angelica Marie
-* Castillo, Cyrus Alexis
-* Macuha, Bien Joshua
+* Rabi, John Carlo (@carlorabi)
+* Cachero, Angelica Marie (@angelicachero)
+* Castillo, Cyrus Alexis (@cyruscastillo)
+* Macuha, Bien Joshua (@bienjoshuaa)
