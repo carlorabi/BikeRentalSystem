@@ -30,10 +30,15 @@ This undertaking outlines the thoughts and techniques for composing programs in 
 - Step 13:	 End.
 
 
-# Screenshots
+# Screenshots of the Program
 
-<img width="572" alt="image" src="https://user-images.githubusercontent.com/113867873/206838059-72be0630-55b9-47ae-bb7c-348ff7759195.png">
+<img width="572" alt="Screenshot1" src="https://user-images.githubusercontent.com/113867873/206838092-6a8e4226-01c9-44ef-aef6-b928036f43d2.png">
 
+<img width="530" alt="Screenshot2" src="https://user-images.githubusercontent.com/113867873/206838133-98df10dd-6845-41f0-ba3b-05da0c4dd138.png">
+
+<img width="538" alt="Screenshot3" src="https://user-images.githubusercontent.com/113867873/206838183-06f61158-c27e-4158-bf8a-e1967193b833.png">
+
+<img width="436" alt="Screenshot4" src="https://user-images.githubusercontent.com/113867873/206838246-929a64c8-c368-4f17-805e-443662159e83.png">
 
 
 # UML Diagram
@@ -41,7 +46,7 @@ This undertaking outlines the thoughts and techniques for composing programs in 
 
 
 # Video Presentation
-
+Link: 
 
 
 # Group Members (IT 2103)
