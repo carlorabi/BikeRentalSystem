@@ -39,7 +39,7 @@ This undertaking outlines the thoughts and techniques for composing programs in 
 
 
 # Group Members (IT 2103)
-Rabi, John Carlo
-Cachero, Angelica Marie
-Castillo, Cyrus Alexis
-Macuha, Bien Joshua
+* Rabi, John Carlo
+* Cachero, Angelica Marie
+* Castillo, Cyrus Alexis
+* Macuha, Bien Joshua
