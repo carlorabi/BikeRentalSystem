@@ -45,7 +45,7 @@ This undertaking outlines the thoughts and techniques for composing programs in 
 
 
 # Video Presentation
-Link: 
+Link: https://youtu.be/rNnO_gTU9Y0
 
 
 # Authors
