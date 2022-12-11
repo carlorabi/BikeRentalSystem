@@ -49,7 +49,7 @@ This undertaking outlines the thoughts and techniques for composing programs in 
 Link: 
 
 
-# Group Members (IT 2103)
+# Authors
 * Rabi, John Carlo (@carlorabi)
 * Cachero, Angelica Marie (@angelicachero)
 * Castillo, Cyrus Alexis (@cyruscastillo)
