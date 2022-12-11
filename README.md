@@ -53,3 +53,7 @@ Link: https://youtu.be/rNnO_gTU9Y0
 * Cachero, Angelica Marie (@angelicachero)
 * Castillo, Cyrus Alexis (@cyruscastillo)
 * Macuha, Bien Joshua (@bienjoshuaa)
+
+# Assessment
+<img width="286" alt="Assessment" src="https://user-images.githubusercontent.com/113867873/206917965-83f2cf46-ee43-4086-85ef-8c779d9cb579.png">
+- Total: 17/20
