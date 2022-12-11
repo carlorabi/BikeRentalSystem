@@ -42,14 +42,6 @@ def main():
         
         if choice == 1:
             shop.displaystock()
-            print("\n---------------------------------------------------------")
-            question = input("\n\tDo you want to continue? [yes/no]: ")
-            if question=="yes":
-                return main()
-            elif question == "no":
-                print("\n\t\t[Bye!]")
-                print("----------------------------------------------------------")
-                break
 
         elif choice == 2:
             customer.rentalTime = shop.rentBikeOnHourlyBasis(customer.requestBike())
