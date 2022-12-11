@@ -22,12 +22,11 @@ This undertaking outlines the thoughts and techniques for composing programs in 
 - Step 1:	  Start
 - Step 2:	  Displaying main menu.
 - Step 3:   When the user press 1, Menu is displayed in the screen with the numbers of bikes available in the store.
-- Step 4:	  And it will ask a user if he/she want to continue (yes/no).
-- Step 5:   If the user choose yes, it will continue otherwise the program will be terminated or stop.
-- Step 6:   When the user press 2, 3, 4 it will display the number of bikes he/she want.
-- Step 7:   If the user input string it will loop  and ask again the quantity of bikes that customer want.
-- Step 8:   When the user press 5, it will show the bill of the customer. 1 hour (quantity of bikes * 50) 1 day (quantity of bikes * 120) 1 week (quantity of bikes * 200)
-- Step 13:	 End.  
+- Step 4:   If the user choose yes, it will continue otherwise the program will be terminated or stop.
+- Step 5:   When the user press 2, 3, 4 it will display the number of bikes he/she want.
+- Step 6:   If the user input string it will loop  and ask again the quantity of bikes that customer want.
+- Step 7:   When the user press 5, it will show the bill of the customer. 1 hour (quantity of bikes * 50) 1 day (quantity of bikes * 120) 1 week (quantity of bikes * 200)
+- Step 8:	 End.  
 
 
 # Screenshots of the Program
