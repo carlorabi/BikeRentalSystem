@@ -30,6 +30,7 @@ This undertaking outlines the thoughts and techniques for composing programs in 
 
 # UML Diagram
 https://github.com/carlorabi/BikeRentalSystem/blob/bf0f0878921d2c4793e65b216a084ad81c9b9220/UML%20Diagram.drawio
+![UML Diagram](https://user-images.githubusercontent.com/113867873/206979692-2d070107-bb83-4d77-a952-6d56d1ae83fc.jpg)
 
 # Screenshots of the Program
 
