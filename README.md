@@ -40,10 +40,6 @@ This undertaking outlines the thoughts and techniques for composing programs in 
 <img width="436" alt="Screenshot4" src="https://user-images.githubusercontent.com/113867873/206838246-929a64c8-c368-4f17-805e-443662159e83.png">
 
 
-# UML Diagram
-![UML_Diagram](https://user-images.githubusercontent.com/113867873/206898976-4f59f8f0-de0b-4cc2-9dd5-33961853cfe3.jpg)
-
-
 # Video Presentation
 Link: 
 
