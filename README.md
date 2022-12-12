@@ -28,6 +28,8 @@ This undertaking outlines the thoughts and techniques for composing programs in 
 - Step 7:   When the user press 5, it will show the bill of the customer. 1 hour (quantity of bikes * 50) 1 day (quantity of bikes * 120) 1 week (quantity of bikes * 200)
 - Step 8:	 End.  
 
+# UML Diagram
+https://github.com/carlorabi/BikeRentalSystem/blob/bf0f0878921d2c4793e65b216a084ad81c9b9220/UML%20Diagram.drawio
 
 # Screenshots of the Program
 
