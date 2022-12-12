@@ -52,4 +52,4 @@ Link:
 
 # Assessment
 <img width="286" alt="Assessment" src="https://user-images.githubusercontent.com/113867873/206917965-83f2cf46-ee43-4086-85ef-8c779d9cb579.png">
-- Total: 17/24
+- Total: 17/20
