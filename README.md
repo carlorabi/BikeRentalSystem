@@ -41,7 +41,9 @@ This undertaking outlines the thoughts and techniques for composing programs in 
 
 
 # Video Presentation
-Link: 
+Link: https://youtu.be/Y6iHe46Pm9g
+
+Timestamp - 12:18 (Execution of Program)
 
 
 # Authors
